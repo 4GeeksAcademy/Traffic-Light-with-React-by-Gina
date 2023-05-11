@@ -15,6 +15,16 @@
     font-weight: bold;
     font-size: 24px;
   }
+  .wait-text{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .go-text{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
   
   .traffic-light {
     width: 120px;

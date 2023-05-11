@@ -15,12 +15,16 @@ const Home = () => {
         </div>
 		  <div
 			onClick={() => setSelectedColor("yellow")}
-			className={"light yellow " + (selectedColor === "yellow" ? " glow" : "")}
-		  ></div>
+			className={"light yellow p-2 " + (selectedColor === "yellow" ? " glow" : "")}
+		>
+			{selectedColor === "yellow" && <span className="wait-text">WAIT</span>}
+		  </div>
 		  <div
 			onClick={() => setSelectedColor("green")}
 			className={"light green p-2" + (selectedColor === "green" ? " glow" : "")}
-		  ></div>
+		>
+			{selectedColor === "green" && <span className="go-text">GO</span>}
+		  </div>
 		</div>
 	  </div>
 	);
